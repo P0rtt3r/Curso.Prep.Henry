@@ -22,12 +22,12 @@ funcion. Si escribis una orden despues de una linea que tenga 'return'
 no se va  a precesar/leer/como le quieras decir.
 
 Declaraciones 'if':
-	Es para crear operaciones que tengan una condicion. IF en igles
-es el si para condicionales, entocnes en JS se utilisa if (condicion 
-la que quieras) y se puede cumplir (true), no cumplir (false), o la podes setear para que siempre se cumpla o nunca se cumpla.
+	Es para crear operaciones que tengan una condicion. IF en ingles
+es el si, se usa para los condicionales, entocnes en JS se utiliza
+if (condicion que quieras) y se puede cumplir (true), no cumplir
+(false), o la podes setear para que siempre se cumpla o nunca se cumpla.
 
 Valores booleanos:
-	son resultados de variables que no son numericos ni strings,
-solo pueden ser verdaderos o falsos.
-
+	son resultados que no son numericos ni strings, solo pueden
+ser verdaderos o falsos.
 
