@@ -8,7 +8,6 @@ String:
 	son un conjunto de caracteres, por no decir letras, siempre 
 van entre comillas simples (''), generalmente se las usa como palabras
 
-
 Funciones:
 	Una funcion es un conjunto de ordenes que se le da al editor 
 de texto para que se comunique con la pc para realizar determinada
