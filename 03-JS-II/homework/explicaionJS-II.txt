@@ -1,0 +1,38 @@
+JS - II)
+Nota: en la seccion "||" del README.md, creo que el ultimo ejemplo esta mal,
+no seria "ambas declaraciones son falsas, por lo que || devolvera
+false.."? Se entiende igual, aviso por las dudas, perdon si me estoy
+equivocando.
+
+Explicacion:
+1)
+	'for': for es un tipo de bucle, un bucle es un funcion que se 
+ejecuta en loop (se ejecuta una y otra vez) hasta que le demos un parate.
+La sintaxis es:
+	for (var nombreDeLaVariable = ValorDeLaVariable ; 
+expresion condicional ; incremento de la variable).
+donde primero se declara una variable; se le da una condicion para que
+cumpla, como por ejemplo hasta donde crecer, el bucle seguira hasta que
+la expresion condicional devuelva 'false'; y se le dice como crecer,
+o sea como seguir avanzando para que se forme el bucle, esto depende
+de como incrementemos la variable.
+
+
+Operadores  Logicos:
+	* && es un operador logico que se utiliza dentro de una condicion,
+este expresa que se deben cumplir ambas partes de la condicion para que
+sea 'true', si no se cumple 1 de las dos (en el caso que sean solo dos)
+la condicion sera 'false'. se le dice "y", se tiene que cumplir la 
+condicion 1 Y la condicion 2 para que la condicion sea verdadera. Se
+cumple si y solo si la cond 1 y la cond. 2 (AMBAS) son verdaderas/true.
+
+	* || este operador logico se utiliza tambien dentro de una
+condicion, significa "O" ("OR"). Esto quiere decir que en el caso de que
+sean solo dos condiciones, con que se cumpla solo una de las 2 basta
+para que la condicion sea 'true'. O sea, si se cumple la cond. 1 o
+la condicion dos, el output es verdadero/true. solo devuelve false
+si ambas condiciones no se cumplen.
+	*! es un operador logico de negacion ("NO"/"NOT"), el cual hace
+que lo que le siga sea el contrario, por ejemplo: '!true' seria un not
+true o sea que es false.
+
