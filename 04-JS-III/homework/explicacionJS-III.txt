@@ -1,0 +1,20 @@
+JS - III
+	Arrays: los arrays o arreglos son listas de datos, pueden ser
+cualquier tipo de datos: booleanos, numeros, strings, null, undifined, etc.
+Los arrays pueden estar vacios, ej:
+var arrayVacio= []
+	Los arrays pueden contener elementos desordenados y tambien
+distintos tipos de datos, pero por defecto tienen un orden y cada posicion
+tiene un numero, por el cual se los puede invocar o trabajar con ellos.
+(El primer elemento se encuentra en el lugar 0)
+se los asigna con el operador de asignaicon '=' y siempre estan entre 
+brackets '[]'
+	Tienen dos funciones nativas que son pop() que devuelve el ultimo
+elemento del arreglo pero al mismo tiempo lo saca de el. Y push()  el cual
+agrega un elemento al final de la lista.
+
+
+
+
+
+
