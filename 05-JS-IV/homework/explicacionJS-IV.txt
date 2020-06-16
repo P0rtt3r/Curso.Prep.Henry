@@ -1,0 +1,36 @@
+05 JS-IV
+
+1) Objetos
+	Los objetos son contenedores de informacion, en los cuales ella se 
+agrupa segun el patron 'key:value'. 'key' es el nombre de la propiedad donde
+se va a almacenar el 'value'(valor de la propiedad). El valor de la propiedad
+puede ser cualquier tipo de dato de JS, un numero, un string un array, otro
+objeto e incluso una funcion (un funcion dentro de un objeto se llama metodo).
+
+2) Propiedades
+	Las propiedades vendrian a ser el 'subtitulo' de la informacion que esta
+almacenada dentro del objeto, ejemplo el objeto contiene todos los subtitutlos
+y cada subtitulo contiene la informacion/datos. Las propiedades son las 'key'
+
+3) Metodos
+	Los metodos como mencione anteriormente son funciones dentro de un
+objeto, o sea:
+    var objeto = {
+	propiedad: metodo() {aca va el codigo de la funcion}
+}
+
+4) Bucle 'for...in'
+	es una forma de bucle, de accionar sobre la o las claves del objeto,
+es como el bucle for, nada mas que el bucle for no funciona sobre objetos, 
+ya que los objetos no tienen sus contenidos ordenados por indices, como los
+arrays. Su sintacis es:
+	for (let propiedad in objeto) { //codigo que se aplica en la propiedad
+	del objeto}
+
+5) Notación de puntos vs notación de corchetes
+	Se puede invocar la informacion dentro de las propiedades de los objetos
+de dos maneras. A traves de notacion de puntos:
+	objeto.propiedad 
+el problema con esta forma es que es muy literal xxxxxxxxxxxxxxxxxxxxxxx
+	O a traves de notacion de corchetes:
+	objeto['propiedad']
