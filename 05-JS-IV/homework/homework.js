@@ -6,6 +6,7 @@ function crearGato(nombre, edad) {
   // Agrega un método (funcion) llamado "meow" que devuelva el string "Meow!"
   // Devuelve el objeto
   // Tu código:
+  
   var gato = {
     nombre: nombre,
     edad: edad,
@@ -22,7 +23,7 @@ function agregarPropiedad(objeto, property) {
   // Devuelve el objeto
   // NOTA: El nombre de la propiedad no es "propiedad", el nombre es el valor del argumento llamado "property" (una cadena/string)
   // Tu código:
-  objeto[property] = null
+  objeto[property] = null;
   return objeto;
 }
 
@@ -39,7 +40,7 @@ function multiplicarNumeroDesconocidoPorCinco(objetoMisterioso) {
   // Multiplica el numeroMisterioso por 5 y devuelve el producto
   // Tu código:
   return objetoMisterioso.numeroMisterioso * 5;
-  //return objetoMisterioso['numeroMisterioso'] * 5;
+  // tambien funciona return objetoMisterioso['numeroMisterioso'] * 5;
 }
 
 function eliminarPropiedad(objeto, propiedad) {
@@ -146,7 +147,7 @@ function sumarLikesDeUsuario(usuario) {
   // Tu código:
   
   var resultado = 0
-  for (i =0 ;i < usuario.length ;i++){
+  for (i =0 ;i < usuario.posts.length ;i++){
     resultado = resultado + usuario['posts'][i].likes;
   }
   return resultado;
@@ -163,14 +164,10 @@ function agregarMetodoCalculoDescuento(producto) {
   // producto.calcularPrecioDescuento() -> 20 - (20 * 0.2)
   // Tu código:
 
-  var descuento = 1 - porcentajeDeDescuento;
-
-  var producto = {
-    calcularPrecioDescuento: function() {
-      descontado = producto.precio * descuento
-    }
+  producto.calcularPrecioDescuento = function() {
+    return producto.precio - (this.precio * this.porcentajeDeDescuento);
   }
-  return descontado;
+  return producto;
 }
 
 // No modificar nada debajo de esta línea
