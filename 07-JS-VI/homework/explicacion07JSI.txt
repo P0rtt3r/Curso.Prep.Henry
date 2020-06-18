@@ -1,0 +1,6 @@
+07 JS VI
+
+Funciones callback
+	Las funciones callback se les dice por convencion a los argumentos de
+funciones que son tambien funciones. Vendria a ser como invocar en el argumento
+de una funcion otra funcion.
