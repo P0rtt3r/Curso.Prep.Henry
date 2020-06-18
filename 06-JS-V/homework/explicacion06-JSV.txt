@@ -1,0 +1,37 @@
+06 JS V)
+
+1) prototype:
+	Es como un modelo de un objeto, es decir todo en JS tiene un prototype
+o prototipo, que se invoca con .__proto__
+	A este prototipo es una manera que tienen las clases para hacer una
+"plantilla" para distintos metodos, es decir, haces un prototype dentro de un
+class (en caso de que sea ES6) para que todos los metodos puedan ser accedidos
+por todos los abjetos creados a partir de la funcion constructora.
+	
+
+2)Constructors (de Clases):
+	funcion constructora o funcion factory es una especie de una "plantilla"
+o "molde" que nos permite clonar la misma estructura (propiedades y/o metodos)
+en varios objetos distintos.
+
+ EJEMPLO:
+
+//constructor
+	function User (usuario, nombre, edad, pais) {
+		this.usuario = usuario;
+		this.nombre = nombre;
+		this.edad = edad;
+		this.pais= pais;
+		}
+
+//propiedad del prototype	
+	User.prototype.getUSerInfo = function() {
+		return 'user: ' + this.usuario + ' nombre: ' + this.nombre + 
+		' edad: ' + this.edad + ' pais de residencia ' + this.pais ;
+		}
+
+//objeto creado con  "function constructor" y "new"
+	var pancho = new User ('@P0rtt3r', 'francisco', 21, 'Argentina')
+
+	
+
