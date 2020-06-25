@@ -1,0 +1,56 @@
+body{
+    height: auto;
+}
+
+#izquierda{
+    background-color: steelblue;
+    width: 25%;
+    height: 1250px;
+    float: left;
+}
+
+#derecha{
+    background-color: lightgray;
+    width: 75%;
+    height: 1250px;
+    float: right;
+}
+
+img{
+    width: 70%;
+    height: auto;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 70px;
+    margin-bottom: 30px;
+    border-radius: 150px;
+}
+
+#descripcion{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+h2{
+    margin-left: 10px;
+}
+
+#nombre{
+    width: 100%;
+    height: 27%;
+    background-color: lightslategray;
+    text-align: center;
+    font-size: 30px;
+}
+
+h2 {
+    background-color: lightslategray;
+}
+div{
+    font-family: "Helvetica Neue";
+}
+
+p{
+    margin-left: 15px;
+    margin-right: 15px;
+}
