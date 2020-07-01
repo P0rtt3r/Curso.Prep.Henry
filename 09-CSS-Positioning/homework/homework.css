@@ -7,7 +7,8 @@ archivo en cualquiera de estas carpetas, estás en el lugar equivocado.
 
 /* Arrancaremos este ejercicio por vos: */
 #ejercicioUno {
-
+    display: block;
+    text-align: center;
 }
 
 
@@ -15,24 +16,68 @@ archivo en cualquiera de estas carpetas, estás en el lugar equivocado.
 
 /* Acá va tu código */
 
+#ejercicioDos{
+    display: none;
+}
+
 
 
 /* Ejercicio 3: */
 
 /* Acá va tu código */
 
-
+#ejercicioTres{
+    position: relative;
+    left: 200px;
+    top: 100px;
+}
 
 /* Ejercicio 4: */
 
 /* Acá va tu código */
 
-
+#ejercicioCuatro{
+    position: fixed;
+    top: 0;
+    left: 0;
+}
 
 /* Ejercicio 5: */
 
 /* Acá va tu código */
 
+#ejercicioCinco{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /* aca le mande un margen negativo izquierdo para que quede un poquitito mas centrado el logo de henry */
+    margin-left: -120px;
+    /* Ejercicio 6. */
+    flex-direction: row-reverse;
+}
 
 
-/* Ejercicio 6. */
+#elementoUno{
+    position: relative;
+    background: white;
+    align-items: center;
+}
+
+#elementoDos{
+    position: relative;
+    background: lightgreen;
+    top: 100px;
+}
+
+#elementoTres{
+    position: relative;
+    background: indigo;
+    top: 200px;
+}
+
+#elementoCuatro{
+    position: relative;
+    background: indianred;
+    top: 300;
+    right:-3px;
+}
